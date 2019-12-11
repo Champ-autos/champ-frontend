@@ -10,6 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  font-family: 'IBM Plex Sans SemiBold', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -206,7 +207,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: "IBM Plex Sans SemiBold" ,georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
