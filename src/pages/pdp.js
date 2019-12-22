@@ -12,7 +12,19 @@ const ProductDetailPage = () => (
 
     <Image />
     <h1>2018 Mercedes Benz CLS</h1>
-    <h3>56,000</h3>
+    <div name="price container" style={{
+        width: "90%",
+        height: 21,
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        overflow: "visible",
+    }}>
+      <span>56,000</span>
+      <span>$500/mo</span>
+      <span>Apply for financing</span>
+    </div>
 
     <Link to="/">Go back to the homepage</Link>
   </Layout>
