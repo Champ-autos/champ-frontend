@@ -1,14 +1,19 @@
 import React from "react"
 import Image from "./image"
+import { Link } from "gatsby"
+
 
 
 const Card = ({carYear, carBrand, carModel}) => (
-    <div style={cardStyle}>
-        <div style={{maxWidth:`300px`}}>
-            <Image />
+    <Link to="/pdp">
+        <div style={cardStyle}>
+            <div style={{maxWidth:`300px`}}>
+                <Image />
+            </div>
+            {carYear},{carBrand}, {carModel}
         </div>
-        {carYear},{carBrand}, {carModel}
-    </div>
+
+    </Link>
 )
 
 const cardStyle = {
